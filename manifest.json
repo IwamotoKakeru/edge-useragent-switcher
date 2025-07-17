@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Edge User-Agent Switcher",
+    "version": "1.0",
+    "description": "User-AgentをWindows Edgeに変更してページを再読み込みします。",
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Edge UAに切り替え"
+    }
+}
