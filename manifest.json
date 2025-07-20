@@ -5,7 +5,6 @@
     "description": "User-AgentをWindows Edgeに変更してページを再読み込みします。",
     "permissions": [
         "declarativeNetRequest",
-        "declarativeNetRequestWithHostAccess",
         "activeTab",
         "scripting"
     ],
